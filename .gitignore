@@ -12,3 +12,10 @@ src/v29tx_rrc.h
 INSTALL
 test-data/itu/tiff-fx/Makefile
 test-data/itu/tiff-fx/Makefile.in
+.deps
+.libs
+*.o
+*.Po
+*.a
+*.lo
+*.la

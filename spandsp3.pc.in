@@ -3,7 +3,7 @@ exec_prefix=@exec_prefix@
 libdir=@libdir@
 includedir=@includedir@
 
-Name: spandsp
+Name: spandsp3
 Description: A DSP library for telephony.
 Requires:
 Version: @VERSION@

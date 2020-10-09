@@ -1,4 +1,4 @@
-# BUILD using: rpmbuild -ba spandsp.spec
+# BUILD using: rpmbuild -ba spandsp3.spec
 # DOC: https://fedoraproject.org/wiki/Packaging:SourceURL
 %global commit f995f452ee79d03c4afa90b10e86a5f9c553920c
 
@@ -34,7 +34,7 @@ information about these intellectual property issues.
 %package devel
 Summary: SpanDSP development files
 Group: Development/Libraries
-Conflicts: spandsp-devel
+Conflicts: spandsp3-devel
 Requires: spandsp3%{?_isa} = %{version}-%{release}
 Requires: libtiff-devel%{?_isa}
 Requires: libjpeg-turbo-devel%{?_isa}
@@ -77,11 +77,11 @@ rm -rf %{buildroot}
 
 %files devel
 %defattr(-,root,root,-)
-%{_includedir}/spandsp.h
+%{_includedir}/spandsp3.h
 %{_includedir}/spandsp
 %{_libdir}/libspandsp.so
 %{_libdir}/libspandsp.a
-%{_libdir}/pkgconfig/spandsp.pc
+%{_libdir}/pkgconfig/spandsp3.pc
 
 %files apidoc
 %defattr(-,root,root,-)

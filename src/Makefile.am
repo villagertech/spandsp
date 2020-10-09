@@ -355,7 +355,7 @@ nobase_include_HEADERS = spandsp/ademco_contactid.h \
                          spandsp/private/v8.h \
                          spandsp/expose.h
 
-nodist_include_HEADERS = spandsp.h
+nodist_include_HEADERS = spandsp3.h
 
 noinst_HEADERS = cielab_luts.h \
                  faxfont.h \
@@ -563,14 +563,14 @@ $(VCPROJ12): msvc/vc12proj.head msvc/vc12proj.foot Makefile.am
 	done; \
 	cat $(srcdir)/msvc/vc12proj.foot $(VCPROJOUT12) )
 
-$(srcdir)/msvc/spandsp.h: spandsp.h.in
+$(srcdir)/msvc/spandsp.h: spandsp3.h.in
 	echo "creating $(srcdir)/msvc/spandsp.h"
 	@sed -e "s/#define _SPANDSP_H_/#define _SPANDSP_H_\n\n#define __inline__ __inline\n#pragma warning(disable:4200)/" \
 	     -e "s/\@SPANDSP_USE_FIXED_POINT\@/#undef SPANDSP_USE_FIXED_POINT/" \
 	     -e "s/\@SPANDSP_MISALIGNED_ACCESS_FAILS\@/#undef SPANDSP_MISALIGNED_ACCESS_FAILS/" \
 	     -e "s/\@SPANDSP_USE_EXPORT_CAPABILITY\@/#define SPANDSP_USE_EXPORT_CAPABILITY 1/" \
 	     -e "s/\@INSERT_INTTYPES_HEADER\@/#include <msvc\/inttypes.h>/" \
-	     -e "s/\@INSERT_MATH_HEADER\@/#include <math.h>/" $(srcdir)/spandsp.h.in > $(srcdir)/msvc/spandsp.h
+	     -e "s/\@INSERT_MATH_HEADER\@/#include <math.h>/" $(srcdir)/spandsp3.h.in > $(srcdir)/msvc/spandsp.h
 
 dist-hook: spandsp/version.h
 

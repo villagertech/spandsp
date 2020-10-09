@@ -34,6 +34,8 @@
 #if !defined(_SPANDSP_FIR_H_)
 #define _SPANDSP_FIR_H_
 
+#include "alloc.h"
+
 #if defined(USE_MMX)  ||  defined(USE_SSE2)
 #include "mmx.h"
 #endif

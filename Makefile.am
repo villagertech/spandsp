@@ -21,7 +21,7 @@ ACLOCAL_AMFLAGS = -I m4
 AM_CFLAGS = $(COMP_VENDOR_CFLAGS)
 AM_LDFLAGS = $(COMP_VENDOR_LDFLAGS)
 
-noinst_SCRIPTS = spandsp.spec
+noinst_SCRIPTS = spandsp3.spec
 
 MAINTAINERCLEANFILES = Makefile.in
 
@@ -37,7 +37,7 @@ EXTRA_DIST = autogen.sh \
              debian/rules \
              debian/watch \
              README.testdata \
-             spandsp.spec \
+             spandsp3.spec \
              spandsp/fax-tests.dtd \
              spandsp/fax-tests.xml \
              spandsp/global-tones.xml \
@@ -61,7 +61,7 @@ SUBDIRS = src $(MAYBE_DOC) $(MAYBE_TESTS)
 DIST_SUBDIRS = src doc test-data spandsp-sim tests
 
 pkgconfigdir = $(libdir)/pkgconfig
-pkgconfig_DATA = spandsp.pc
+pkgconfig_DATA = spandsp3.pc
 
 faq: faq.xml
 	cd faq ; xsltproc ../wrapper.xsl ../faq.xml
@@ -78,7 +78,7 @@ rpm-build:
 	rm -f rpm/SRPMS/*
 	rpmbuild -ta --sign @PACKAGE@-@VERSION@.tar.gz
 
-bump.rpm.release: spandsp.spec
+bump.rpm.release: spandsp3.spec
 	VERSION="x"; \
 	test -f $(srcdir)/rpm.release && . $(srcdir)/rpm.release; \
 	NEXT_RELEASE=0; \
@@ -87,5 +87,5 @@ bump.rpm.release: spandsp.spec
 	echo "VERSION=@VERSION@" >$(srcdir)/rpm.release; \
 	echo "RELEASE=$$RELEASE" >>$(srcdir)/rpm.release; \
 	sed 's/^Release: .*/Release: '$$RELEASE'/' \
-		<spandsp.spec >spandsp.spec.new; \
-	mv spandsp.spec.new spandsp.spec
+		<spandsp3.spec >spandsp3.spec.new; \
+	mv spandsp3.spec.new spandsp3.spec
