@@ -52,7 +52,7 @@ in ITU specifications T.85.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define TESTBUF_SIZE        400000
 #define TEST_IMAGE_SIZE     (1951*1960/8)

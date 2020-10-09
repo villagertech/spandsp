@@ -45,7 +45,7 @@ tests, these tests do not include line modelling.
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define OUTPUT_FILE_NAME            "adsi.wav"

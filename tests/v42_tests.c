@@ -43,7 +43,7 @@ then exchanged between them.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 v42_state_t callerx;
 v42_state_t answererx;

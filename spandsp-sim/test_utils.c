@@ -42,7 +42,7 @@
 #if defined(HAVE_STDBOOL_H)
 #include <stdbool.h>
 #else
-#include "spandsp/stdbool.h"
+#include "spandsp3/stdbool.h"
 #endif
 #include "floating_fudge.h"
 #include <time.h>
@@ -50,7 +50,7 @@
 #include <sndfile.h>
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define MAX_FFT_LEN     8192

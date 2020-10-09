@@ -44,14 +44,14 @@
 #if defined(HAVE_STDBOOL_H)
 #include <stdbool.h>
 #else
-#include "spandsp/stdbool.h"
+#include "spandsp3/stdbool.h"
 #endif
 #include "floating_fudge.h"
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
-#include "spandsp/g168models.h"
+#include "spandsp3/g168models.h"
 
 #if !defined(NULL)
 #define NULL (void *) 0

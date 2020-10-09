@@ -38,7 +38,7 @@
 #include <time.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define DEC_SAMPLE_RATE     800
 #define DEC_RATIO           10

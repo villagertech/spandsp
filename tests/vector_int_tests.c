@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <string.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 static int32_t vec_dot_prodi16_dumb(const int16_t x[], const int16_t y[], int n)
 {

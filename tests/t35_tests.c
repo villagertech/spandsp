@@ -41,7 +41,7 @@
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int main(int argc, char *argv[])
 {

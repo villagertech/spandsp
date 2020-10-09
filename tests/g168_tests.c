@@ -34,8 +34,8 @@
 #include <string.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
-#include "spandsp/g168models.h"
+#include "spandsp3.h"
+#include "spandsp3/g168models.h"
 #include "spandsp-sim.h"
 
 typedef struct

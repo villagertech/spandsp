@@ -45,7 +45,7 @@
 #include <poll.h>
 #endif
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #include "spandsp-sim.h"
 

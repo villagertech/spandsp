@@ -39,7 +39,7 @@ correct operation.
 #include <stdlib.h>
 #include <string.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int ref_len;
 uint8_t buf[1000];

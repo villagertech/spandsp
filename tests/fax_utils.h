@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_FAX_UTILS_H_)
-#define _SPANDSP_FAX_UTILS_H_
+#if !defined(_SPANDSP3_FAX_UTILS_H_)
+#define _SPANDSP3_FAX_UTILS_H_
 
 #if defined(__cplusplus)
 extern "C"

@@ -40,7 +40,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 async_rx_state_t rx_async;
 async_tx_state_t tx_async;

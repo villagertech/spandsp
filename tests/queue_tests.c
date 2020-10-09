@@ -41,7 +41,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define BUF_LEN     10000
 #define MSG_LEN     17

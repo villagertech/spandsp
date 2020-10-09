@@ -37,7 +37,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #if !defined(M_PI)
 # define M_PI           3.14159265358979323846  /* pi */

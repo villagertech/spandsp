@@ -40,7 +40,7 @@
 #include <string.h>
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
-#include "spandsp.h"
+#include "spandsp3.h"
 
 uint64_t when1;
 uint64_t when2;

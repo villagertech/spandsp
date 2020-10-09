@@ -61,7 +61,7 @@ find doc/api -type f | xargs touch -r configure
 %install
 rm -rf %{buildroot}
 make install DESTDIR=%{buildroot}
-rm %{buildroot}%{_libdir}/libspandsp.la
+rm %{buildroot}%{_libdir}/libspandsp3.la
 mkdir -p %{buildroot}%{_datadir}/spandsp
 
 %clean
@@ -78,9 +78,9 @@ rm -rf %{buildroot}
 %files devel
 %defattr(-,root,root,-)
 %{_includedir}/spandsp3.h
-%{_includedir}/spandsp
-%{_libdir}/libspandsp.so
-%{_libdir}/libspandsp.a
+%{_includedir}/spandsp3
+%{_libdir}/libspandsp3.so
+%{_libdir}/libspandsp3.a
 %{_libdir}/pkgconfig/spandsp3.pc
 
 %files apidoc

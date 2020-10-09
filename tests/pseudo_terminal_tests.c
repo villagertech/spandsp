@@ -47,9 +47,9 @@
 #include <errno.h>
 #endif
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
-#include "spandsp/t30_fcf.h"
+#include "spandsp3/t30_fcf.h"
 
 #include "spandsp-sim.h"
 

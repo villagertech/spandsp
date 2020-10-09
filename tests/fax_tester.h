@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_FAX_TESTER_H_)
-#define _SPANDSP_FAX_TESTER_H_
+#if !defined(_SPANDSP3_FAX_TESTER_H_)
+#define _SPANDSP3_FAX_TESTER_H_
 
 /*! \page fax_tester_page FAX over analogue modem handling
 

@@ -41,7 +41,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 uint8_t buffer[256];
 

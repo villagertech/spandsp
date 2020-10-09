@@ -46,7 +46,7 @@ will be compressed to LPC10 data, decompressed, and the resulting audio stored i
 #include <ctype.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define BLOCK_LEN       180

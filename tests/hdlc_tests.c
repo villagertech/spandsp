@@ -40,8 +40,8 @@ using both 16 and 32 bit CRCs.
 #include <unistd.h>
 #include <string.h>
 
-#include "spandsp.h"
-#include "spandsp/private/hdlc.h"
+#include "spandsp3.h"
+#include "spandsp3/private/hdlc.h"
 
 int ref_len;
 uint8_t buf[1000];

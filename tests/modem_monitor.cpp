@@ -47,7 +47,7 @@
 #include <FL/Fl_Output.H>
 #include <FL/fl_draw.H>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define SYMBOL_TRACKER_POINTS   12000
 #define CARRIER_TRACKER_POINTS  12000

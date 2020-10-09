@@ -44,12 +44,12 @@
 #if defined(HAVE_STDBOOL_H)
 #include <stdbool.h>
 #else
-#include "spandsp/stdbool.h"
+#include "spandsp3/stdbool.h"
 #endif
 #include "floating_fudge.h"
 
-#include "spandsp.h"
-#include "spandsp/g1050.h"
+#include "spandsp3.h"
+#include "spandsp3/g1050.h"
 
 #define PACKET_LOSS_TIME    -1
 

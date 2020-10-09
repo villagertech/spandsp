@@ -43,7 +43,7 @@ in ITU specifications T.4 and T.6.
 
 //#define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define XSIZE           1728
 

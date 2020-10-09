@@ -41,7 +41,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #if defined(SPANDSP_SUPPORT_TIFF_FX)  &&  defined(HAVE_TIF_DIR_H)
 #include <tif_dir.h>

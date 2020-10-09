@@ -50,7 +50,7 @@ compression may be tested.
 #include <time.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define IN_FILE_NAME    "../test-data/local/short_nb_voice.wav"

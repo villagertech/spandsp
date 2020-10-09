@@ -90,8 +90,8 @@ cancellor.
 #define GEN_CONST
 #endif
 
-#include "spandsp.h"
-#include "spandsp/g168models.h"
+#include "spandsp3.h"
+#include "spandsp3/g168models.h"
 #include "spandsp-sim.h"
 
 #if defined(ENABLE_GUI)

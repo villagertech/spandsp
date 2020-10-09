@@ -51,7 +51,7 @@ a fair test of performance in a real PSTN channel.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 /* R2 tone generation specs.

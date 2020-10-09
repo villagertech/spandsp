@@ -41,7 +41,7 @@ their operation with very dumb brute force versions of the same functionality.
 #include <string.h>
 #include <assert.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 uint8_t from[1000000];
 uint8_t to[1000000];

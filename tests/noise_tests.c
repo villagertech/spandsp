@@ -36,7 +36,7 @@
 #include <string.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #if !defined(M_PI)

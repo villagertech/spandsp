@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_LINE_MODELS_H_)
-#define _SPANDSP_LINE_MODELS_H_
+#if !defined(_SPANDSP3_LINE_MODELS_H_)
+#define _SPANDSP3_LINE_MODELS_H_
 
 extern float proakis_line_model[];
 extern float ad_1_edd_1_model[];

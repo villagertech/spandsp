@@ -51,7 +51,7 @@
 #include <FL/Fl_Audio_Meter.H>
 #include <FL/fl_draw.H>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "echo_monitor.h"
 
 struct line_model_monitor_s

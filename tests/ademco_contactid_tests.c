@@ -40,7 +40,7 @@
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define SAMPLES_PER_CHUNK           160

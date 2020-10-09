@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_PCAP_PARSE_H_)
-#define _SPANDSP_PCAP_PARSE_H_
+#if !defined(_SPANDSP3_PCAP_PARSE_H_)
+#define _SPANDSP3_PCAP_PARSE_H_
 
 #if defined(__cplusplus)
 extern "C"

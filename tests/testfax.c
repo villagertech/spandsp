@@ -52,7 +52,7 @@
 //#include "../libpri/libpri.h"
 //#include "../libpri/libfx.h"
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int caller_mode = FALSE;
 static SNDFILE *rxhandle;

@@ -51,8 +51,8 @@ The path being modelled is:
     -    terminal
 */
 
-#if !defined(_SPANDSP_LINE_MODEL_H_)
-#define _SPANDSP_LINE_MODEL_H_
+#if !defined(_SPANDSP3_LINE_MODEL_H_)
+#define _SPANDSP3_LINE_MODEL_H_
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 #include <spandsp.h>

@@ -45,8 +45,8 @@
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
-#include "spandsp/t30_fcf.h"
+#include "spandsp3.h"
+#include "spandsp3/t30_fcf.h"
 #include "spandsp-sim.h"
 
 #if defined(ENABLE_GUI)

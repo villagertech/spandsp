@@ -66,9 +66,9 @@ and the resulting audio stored in post_g722.wav.
 #include <ctype.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
-#include "spandsp/private/g722.h"
+#include "spandsp3/private/g722.h"
 
 #define G722_SAMPLE_RATE    16000
 

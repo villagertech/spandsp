@@ -51,7 +51,7 @@ audio file, called post_plc.wav. This file contains 8000 sample/second
 
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define INPUT_FILE_NAME     "../test-data/local/short_nb_voice.wav"

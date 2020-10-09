@@ -44,7 +44,7 @@ module, used for T.38 gateways.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 /* A pattern of widening gaps between ones, until at 11 apart an
    EOL should be registered */

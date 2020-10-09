@@ -48,8 +48,8 @@
 #include <fftw.h>
 #endif
 
-#include "spandsp.h"
-#include "spandsp/g168models.h"
+#include "spandsp3.h"
+#include "spandsp3/g168models.h"
 
 #if !defined(NULL)
 #define NULL (void *) 0

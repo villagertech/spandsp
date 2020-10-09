@@ -55,7 +55,7 @@
 #include <time.h>
 
 #include "udptl.h"
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "pcap_parse.h"
 
 #if defined(__HPUX)  ||  defined(__DARWIN)  ||  defined(__CYGWIN__)  ||  defined(__FreeBSD__)

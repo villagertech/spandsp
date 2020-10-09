@@ -46,7 +46,7 @@ These tests exercise the T.38 core ASN.1 processing code.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define MAX_FIELDS      42
 #define MAX_FIELD_LEN   8192

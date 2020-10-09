@@ -40,7 +40,7 @@
 #include <time.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 static void fixed_reciprocal16_tests(void)
 {

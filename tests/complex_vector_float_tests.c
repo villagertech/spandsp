@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <string.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 static void cvec_mulf_dumb(complexf_t z[], const complexf_t x[], const complexf_t y[], int n)
 {

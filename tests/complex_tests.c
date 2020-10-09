@@ -46,7 +46,7 @@
 #include "floating_fudge.h"
 #include <assert.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int main(int argc, char *argv[])
 {

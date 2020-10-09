@@ -44,7 +44,7 @@
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define INPUT_TIFF_FILE_NAME    "../test-data/local/lenna-colour.tif"
 

@@ -85,7 +85,7 @@ The T.31 and TSB85 parts are incomplete right now.
 #endif
 
 #include "udptl.h"
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #if defined(ENABLE_GUI)

@@ -36,7 +36,7 @@
 #include <memory.h>
 #include <time.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int main (int argc, char *argv[])
 {

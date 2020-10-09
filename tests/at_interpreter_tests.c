@@ -42,7 +42,7 @@ These tests exercise all the commands which should be understood by the AT inter
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define DLE 0x10
 #define ETX 0x03

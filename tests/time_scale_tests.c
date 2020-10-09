@@ -44,9 +44,9 @@ This file also contains 8000 sample/second 16 bits/sample linear audio.
 #include <string.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
-#include "spandsp/private/time_scale.h"
+#include "spandsp3/private/time_scale.h"
 
 #define BLOCK_LEN       160
 

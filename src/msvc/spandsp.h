@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_H_)
-#define _SPANDSP_H_
+#if !defined(_SPANDSP3_H_)
+#define _SPANDSP3_H_
 
 #define __inline__ __inline
 #pragma warning(disable:4200)

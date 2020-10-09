@@ -42,7 +42,7 @@ These tests exercise each of the BERT standards supported by the BERT module.
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 /* Use a local random generator, so the results are consistent across platforms */
 static int my_rand(void)

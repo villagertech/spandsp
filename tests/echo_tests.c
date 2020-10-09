@@ -57,8 +57,8 @@ all the tests in G.168 are fully implemented at this time.
 #define GEN_CONST
 #include <math.h>
 
-#include "spandsp.h"
-#include "spandsp/g168models.h"
+#include "spandsp3.h"
+#include "spandsp3/g168models.h"
 #include "spandsp-sim.h"
 #if defined(ENABLE_GUI)
 #include "echo_monitor.h"

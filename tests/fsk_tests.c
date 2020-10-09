@@ -51,7 +51,7 @@ These tests allow either:
 #include <assert.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define BLOCK_LEN           160

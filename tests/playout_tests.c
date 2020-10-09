@@ -38,8 +38,8 @@ how well the playout module copes.
 #include <string.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
-#include "spandsp/private/time_scale.h"
+#include "spandsp3.h"
+#include "spandsp3/private/time_scale.h"
 #include "spandsp-sim.h"
 
 #define INPUT_FILE_NAME     "playout_in.wav"

@@ -51,7 +51,7 @@
 //#include "../libmfcr2/libmfcr2.h"
 //#include "../libpri/libpri.h"
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define FALSE 0
 #define TRUE (!FALSE)

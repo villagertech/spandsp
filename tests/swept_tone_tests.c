@@ -35,7 +35,7 @@
 #include <memory.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define OUTPUT_FILE_NAME        "swept_tone.wav"

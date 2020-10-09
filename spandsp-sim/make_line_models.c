@@ -49,10 +49,10 @@
 #if defined(HAVE_STDBOOL_H)
 #include <stdbool.h>
 #else
-#include "spandsp/stdbool.h"
+#include "spandsp3/stdbool.h"
 #endif
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #if !defined(M_PI)
 # define M_PI           3.14159265358979323846  /* pi */

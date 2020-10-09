@@ -94,7 +94,7 @@ they wish to give it away for free.
 #include <time.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 /* Basic DTMF specs:

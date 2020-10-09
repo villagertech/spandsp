@@ -123,7 +123,7 @@ will be compressed to GSM 06.10 data, decompressed, and the resulting audio stor
 #include <ctype.h>
 #include <sndfile.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "spandsp-sim.h"
 
 #define BLOCK_LEN       160

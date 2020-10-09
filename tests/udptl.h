@@ -23,8 +23,8 @@
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  */
 
-#if !defined(_SPANDSP_UDPTL_H_)
-#define _SPANDSP_UDPTL_H_
+#if !defined(_SPANDSP3_UDPTL_H_)
+#define _SPANDSP3_UDPTL_H_
 
 #define LOCAL_FAX_MAX_DATAGRAM      400
 #define LOCAL_FAX_MAX_FEC_PACKETS   5

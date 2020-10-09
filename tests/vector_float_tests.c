@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <string.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 static void vec_copyf_dumb(float z[], const float x[], int n)
 {

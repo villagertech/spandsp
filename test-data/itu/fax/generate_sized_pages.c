@@ -46,7 +46,7 @@
 #include <math.h>
 #endif
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 struct
 {

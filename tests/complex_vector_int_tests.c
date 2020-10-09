@@ -32,7 +32,7 @@
 #include <fcntl.h>
 #include <string.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 static complexi32_t cvec_dot_prodi16_dumb(const complexi16_t x[], const complexi16_t y[], int n)
 {

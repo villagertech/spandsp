@@ -46,7 +46,7 @@ of this file should exactly match the original file.
 #include <ctype.h>
 #include <assert.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define COMPRESSED_FILE_NAME        "v42bis_tests.v42bis"
 #define DECOMPRESSED_FILE_NAME      "v42bis_tests.out"

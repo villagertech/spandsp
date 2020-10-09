@@ -51,7 +51,7 @@
 #endif
 #include <tiffio.h>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 
 #define IMAGE_WIDTH         1728
 #define IMAGE_LENGTH        2600

@@ -25,8 +25,8 @@
 
 /*! \file */
 
-#if !defined(_SPANDSP_SIM_H_)
-#define _SPANDSP_SIM_H_
+#if !defined(_SPANDSP3_SIM_H_)
+#define _SPANDSP3_SIM_H_
 
 #include <inttypes.h>
 #include <limits.h>

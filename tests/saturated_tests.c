@@ -40,7 +40,7 @@
 #include <string.h>
 
 #define SPANDSP_EXPOSE_INTERNAL_STRUCTURES
-#include "spandsp.h"
+#include "spandsp3.h"
 
 int main(int argc, char *argv[])
 {

@@ -45,7 +45,7 @@
 #include <FL/Fl_Cartesian.H>
 #include <FL/fl_draw.H>
 
-#include "spandsp.h"
+#include "spandsp3.h"
 #include "media_monitor.h"
 
 struct line_model_monitor_s
