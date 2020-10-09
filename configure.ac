@@ -523,6 +523,10 @@ x86_64-* | i386-* | i686-*)
 esac
 
 case "$host" in
+    *debian*)
+        CFLAGS="$CFLAGS -I/usr/include"
+        LDFLAGS="$LDFLAGS -L/usr/lib/x86_64-linux-gnu"
+    ;;    
     *bsd*)
         CFLAGS="$CFLAGS -I/usr/local/include"
         LDFLAGS="$LDFLAGS -L/usr/local/lib"
@@ -625,7 +629,7 @@ AC_CONFIG_FILES([Makefile
                  doc/Makefile
                  doc/doxygen
                  src/Makefile
-                 src/spandsp.h
+                 src/spandsp3.h
                  spandsp-sim/Makefile
                  test-data/Makefile
                  test-data/etsi/Makefile
@@ -635,7 +639,7 @@ AC_CONFIG_FILES([Makefile
                  test-data/itu/tiff-fx/Makefile
                  test-data/local/Makefile
                  tests/Makefile
-                 spandsp.pc])
+                 spandsp3.pc])
 
 AC_OUTPUT
 
