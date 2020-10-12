@@ -60,6 +60,8 @@ struct t30_state_s
                of received page images. */
     int supported_output_compressions;
     /*! \brief A bit mask of the currently supported bi-level image resolutions. */
+    int supported_resolutions;
+    /*! \brief A bit mask of the currently supported basic resolutions. Backward compatible with v0.0.6*/
     int supported_bilevel_resolutions;
     /*! \brief A bit mask of the currently supported gray-scale and colour image resolutions. */
     int supported_colour_resolutions;
