@@ -493,6 +493,15 @@ SPAN_DECLARE(int) t30_set_supported_modems(t30_state_t *s, int supported_modems)
     \return 0 if OK, else -1. */
 SPAN_DECLARE(int) t30_set_supported_compressions(t30_state_t *s, int supported_compressions);
 
+// villagertech/opal: Issue #6
+// Missing backward compat. with v0.0.6.  Added for feature complete. 2020/10/11
+/*! Specify which resolutions are supported by a T.30 context.
+    \brief Specify supported T.30 resolutions.
+    \param s The T.30 context.
+    \param supported_resolutions Bit field list of the supported resolutions.
+    \return 0 if OK, else -1. */
+SPAN_DECLARE(int) t30_set_supported_resolutions(t30_state_t *s, int supported_resolutions);
+
 /*! Specify which bi-level resolutions are supported by a T.30 context.
     \brief Specify supported bi-level resolutions.
     \param s The T.30 context.

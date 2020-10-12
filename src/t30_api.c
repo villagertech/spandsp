@@ -890,6 +890,31 @@ SPAN_DECLARE(int) t30_set_supported_compressions(t30_state_t *s, int supported_c
 }
 /*- End of function --------------------------------------------------------*/
 
+// villagertech/opal: Issue #6
+// Missing backward compat. with v0.0.6.  Added for feature complete. 2020/10/11
+SPAN_DECLARE(int) t30_set_supported_resolutions(t30_state_t * s, int supported_resolutions) {
+    supported_resolutions &= T4_RESOLUTION_100_100
+                            | T30_SUPPORT_STANDARD_RESOLUTION
+                            | T30_SUPPORT_FINE_RESOLUTION
+                            | T30_SUPPORT_SUPERFINE_RESOLUTION
+
+                            | T30_SUPPORT_R4_RESOLUTION
+                            | T30_SUPPORT_R8_RESOLUTION
+                            | T30_SUPPORT_R16_RESOLUTION
+
+                            | T30_SUPPORT_300_300_RESOLUTION
+                            | T30_SUPPORT_400_400_RESOLUTION
+                            | T30_SUPPORT_600_600_RESOLUTION
+                            | T30_SUPPORT_1200_1200_RESOLUTION
+                            | T30_SUPPORT_300_600_RESOLUTION
+                            | T30_SUPPORT_400_800_RESOLUTION
+                            | T30_SUPPORT_600_1200_RESOLUTION;
+    s - > supported_resolutions = supported_resolutions;
+    t30_build_dis_or_dtc(s);
+    return 0;
+}
+/*- End of function --------------------------------------------------------*/
+
 SPAN_DECLARE(int) t30_set_supported_bilevel_resolutions(t30_state_t *s, int supported_resolutions)
 {
     supported_resolutions &= T4_RESOLUTION_R8_STANDARD

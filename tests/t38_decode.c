@@ -459,6 +459,20 @@ int main(int argc, char *argv[])
                                      | T4_COMPRESSION_T85_L0
                                      | T4_COMPRESSION_T42_T81
                                      | T4_COMPRESSION_COLOUR);
+        // Additional unit tests for input of t30_api backward compat.
+        t30_set_supported_resolutions(t30,
+                                      T30_SUPPORT_STANDARD_RESOLUTION
+                                    | T30_SUPPORT_FINE_RESOLUTION
+                                    | T30_SUPPORT_SUPERFINE_RESOLUTION
+                                    | T30_SUPPORT_R8_RESOLUTION
+                                    | T30_SUPPORT_R16_RESOLUTION
+                                    | T30_SUPPORT_300_300_RESOLUTION
+                                    | T30_SUPPORT_400_400_RESOLUTION
+                                    | T30_SUPPORT_600_600_RESOLUTION
+                                    | T30_SUPPORT_1200_1200_RESOLUTION
+                                    | T30_SUPPORT_300_600_RESOLUTION
+                                    | T30_SUPPORT_400_800_RESOLUTION
+                                    | T30_SUPPORT_600_1200_RESOLUTION);
         t30_set_supported_bilevel_resolutions(t30,
                                               T4_RESOLUTION_R8_STANDARD
                                             | T4_RESOLUTION_R8_FINE
