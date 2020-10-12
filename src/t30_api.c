@@ -909,7 +909,7 @@ SPAN_DECLARE(int) t30_set_supported_resolutions(t30_state_t * s, int supported_r
                             | T30_SUPPORT_300_600_RESOLUTION
                             | T30_SUPPORT_400_800_RESOLUTION
                             | T30_SUPPORT_600_1200_RESOLUTION;
-    s - > supported_resolutions = supported_resolutions;
+    s->supported_resolutions = supported_resolutions;
     t30_build_dis_or_dtc(s);
     return 0;
 }
